@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.sidebar #opensb{
+	padding-top: 100px;
+	padding-left: 30px;
+}
+
+#opensb #bar1, #bar2, #bar3{
+	background: black;
+	height: 3px;
+	width: 30px;
+	margin: 5px;
+	border: 5px;
+}
+#closesb #clbar1 {
+	background: black;
+	-webkit-transform: rotate(-45deg) translate(-10px, 5px);
+    transform: rotate(-45deg) translate(-5px, 5px);
+    width: 30px;
+    height: 1.5px;
+}
+#closesb #clbar2 {
+	background: black;
+	-webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-7px, -7px);
+    width: 30px;
+    height: 1.5px;
+}
+
